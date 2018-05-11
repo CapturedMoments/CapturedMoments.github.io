@@ -1,0 +1,160 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+.top-p {
+  color: black;
+}
+
+p {
+  font-family: Basic;
+}
+
+body {
+  background: #F0F8FF;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: "Philosopher";
+  text-align: center;
+  color: black;
+}
+
+section {
+  color: black;
+ }
+
+ .head2 h2 {
+   margin-top: 0;
+ }
+
+h2 {
+  color: black;
+  text-align: center;
+  font-family: "Philosopher"
+}
+
+.header-title {
+  padding: 20px;
+  width: 100%;
+  background: #5F9EA0;
+}
+
+img {
+  border: 0;
+  solid;
+}
+
+.fa-camera-retro {
+  font-size: 1.5em;
+  color: black;
+}
+
+img {
+  height: 320px;
+  width: 320px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.round-img {
+  height: 100%;
+  width: 50%;
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+ nav ul {
+  display: inline-block;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  }
+
+  .background-picture {
+   background: url(../images/background-picture.jpg);
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+  }
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.head2 {
+  background-color: #5F9EA0;
+}
+
+.head3 {
+  background-color: #5F9EA0;
+  text-align: center;
+  font-family: "Philosopher"
+}
+
+.description {
+font-family: Basic;
+}
+
+section p {
+  text-align: center;
+  color: black;
+}
+
+nav img {
+  border-radius: 50%;
+  border: none;
+  height: 100px;
+  width: 100px;
+  opacity: .6;
+}
+
+nav img:hover {
+  opacity: 1;
+}
+
+.photo-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.endquote {
+  background-color: #5F9EA0;
+  text-align: center;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+#hamburger, #close {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  #hamburger, #close {
+    display: block;
+    font-size: 24px;
+    font-family: "Lucida Sans Unicode", "Arial Unicode MS";
+  }
+
+  .main-nav {
+    position: fixed;
+    top: -100vh;
+  }
+
+  .main-nav.open-nav {
+    top: 0;
+    right: 20px;
+    z-index: 2;
+    background: #550165;
+  	width: 100%;
+  }
+}
